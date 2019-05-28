@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>AboutMe</title>
+    <link href="styleme.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
-    <h1>About <Strong>Jean Eric Ndahimana</Strong></h1>
-    <p>My name is <strong>Jean Eric Ndahimana</strong>.
-        I am a <strong>christian</strong> from <strong> Rwanda</strong> I am not <strong>tall</strong> neither
+    <h1>About
+        <Strong>Jean Eric Ndahimana</Strong>
+    </h1>
+    <p>My name is <strong>Jean Eric Ndahimana</strong>. I am a <strong>christian</strong> from <strong> Rwanda</strong> I am not <strong>tall</strong> neither
         <strong>fat</strong> .
         <br>I like <strong>Gospel music</strong> and I am a <strong>honest</strong> man, someone who likes to
         <strong>tell truth</strong> </p>
@@ -29,16 +31,15 @@
         <li>Mercy of the Jungle</li>
     </ol>
     <h1>My moods</h1>
-    <table>
-        <tr>
-            <td>
-                <p>Happy:<img src="happy.jpg" alt="White Lily"></p>
-            </td>
-            <td>
-                <p>Sad:<img src="sad.jpg" alt="White Lily"></p>
-            </td>
-        </tr>
-    </table>
+    <div class="row">
+        <div class="column">Happy:
+            <img id="img1" src="happy.jpg" alt="White Lily" />
+        </div>
+        <div class="column">
+            Sad:<img id="img2" src="sad.jpg" alt="White Lily" />
+        </div>
+
+    </div>
     <h1>Fan Facts about My Neighbors</h1>
     <ul>
         <li>Jean Wilbert: <em>Bicycle Rider</em> He is always on bicycle</li>
