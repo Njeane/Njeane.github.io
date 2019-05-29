@@ -7,9 +7,11 @@
     font-size: 22pt;
     color: #A4A400;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    text-decoration: underline;
 }
 
 .generalheading {
+    text-decoration: underline;
     text-align: left;
     font-size: 18pt;
     color: #A4A400;
