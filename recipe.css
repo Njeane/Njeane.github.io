@@ -1,0 +1,44 @@
+.myspan {
+    background-color: #F0F0F0;
+}
+
+.mainheading {
+    text-align: center;
+    font-size: 22pt;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+
+.generalheading {
+    text-align: left;
+    font-size: 18pt;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-image: url("images/silverware.jpg");
+    color: #404040;
+    font-size: 11pt;
+}
+
+ul {
+    list-style-image: url("images/pie_icon.gif");
+}
+
+.paragrah {
+    margin-left: 20px;
+    background-color: yellow;
+}
+
+a {
+    color: #A4A400;
+}
+
+.footer {
+    float: right;
+}
+
+.footerspan {
+    float: right;
+}
