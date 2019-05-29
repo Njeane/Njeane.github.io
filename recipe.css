@@ -42,3 +42,7 @@ a {
 .footerspan {
     float: right;
 }
+
+#sstrike {
+    text-decoration: line-through;
+}
