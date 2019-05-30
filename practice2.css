@@ -1,0 +1,13 @@
+ul {
+    background-color: red;
+    padding: 20px;
+    text-align: center
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    background-color: bisque;
+    border: solid 1px;
+    padding: 10px;
+}
