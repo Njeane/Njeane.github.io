@@ -1,6 +1,6 @@
-#headerImage {
-    min-width: 100%;
-    width: auto;
+#header {
+    background-image: url("./movie_images/bannerbg.png");
+    text-align: center;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     border: gray solid 5px;
     /*margin-left: 20%; margin-top: 10px;
     margin-right: 20%;*/
-    background-color: rgb(114, 150, 114);
+    background-color: #A2B964;
 }
 
 div.relative {
@@ -29,9 +29,9 @@ div.relative {
     border: gray solid 4px;
     margin: 0 auto;
     margin-top: 10px;
-    background-color: rgb(114, 150, 114);
+    background-color: #A2B964;
     max-width: 800px;
-    height: 800px;
+    height: 1200px;
 }
 
 div.absolute {
@@ -40,7 +40,7 @@ div.absolute {
     top: 0;
     width: 550px;
     background-image: url("./movie_images/background.png");
-    height: 90%;
+    height: 98%;
 }
 
 #divheaderimgleft {
@@ -58,14 +58,6 @@ div.absolute {
     border-radius: 23px;
 }
 
-
-/*
-#leftdiv {
-    margin-left: 25%;
-    float: right;
-    right: 0px;
-}*/
-
 #relativediv {
     position: absolute;
     left: 0px;
@@ -73,11 +65,77 @@ div.absolute {
     background-image: url("./movie_images/background.png");
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
+.container {
+    width: 550px;
 }
 
 .pardiv {
+    border: gray solid 3px;
     border-radius: 8px;
+    margin: 6px;
+    width: 250px;
+    padding: 3px;
+}
+
+.pardiv1 {
+    border: gray solid 3px;
+    border-radius: 8px;
+    margin-right: 6px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 0px;
+    width: 240px;
+    padding: 3px;
+}
+
+.divforcomment {
+    width: 262px;
+    float: left;
+}
+
+.divforcomment2 {
+    width: 262px;
+    float: right;
+}
+
+#image1 {
+    overflow: auto;
+}
+
+#divlef {
+    right: 0;
+    position: absolute;
+    top: 0;
+}
+
+.userImage {
+    float: left;
+}
+
+#divleftdown {
+    margin-top: 413px;
+    right: 0;
+    float: right;
+    width: 250px;
+    overflow: auto;
+}
+
+dl {
+    padding-left: 5px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+
+dd {
+    padding-bottom: 5px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 1180px;
+}
+
+.validator {
+    float: right;
+    clear: both;
 }
