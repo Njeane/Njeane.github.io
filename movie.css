@@ -31,14 +31,17 @@ div.relative {
     margin-top: 10px;
     background-color: #A2B964;
     max-width: 800px;
-    height: 1200px;
+    width: 100%;
+    max-height: 1200px;
+    height: 100%;
 }
 
 div.absolute {
     position: absolute;
     left: 0;
     top: 0;
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
     background-image: url("./movie_images/background.png");
     height: 98%;
 }
@@ -66,14 +69,16 @@ div.absolute {
 }
 
 .container {
-    width: 550px;
+    max-width: 550px;
+    width: 100%;
 }
 
 .pardiv {
     border: gray solid 3px;
     border-radius: 8px;
     margin: 6px;
-    width: 250px;
+    max-width: 250px;
+    width: 100%;
     padding: 3px;
 }
 
@@ -84,7 +89,8 @@ div.absolute {
     margin-top: 6px;
     margin-bottom: 6px;
     margin-left: 0px;
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     padding: 3px;
 }
 
@@ -94,7 +100,8 @@ div.absolute {
 }
 
 .divforcomment2 {
-    width: 262px;
+    max-width: 262px;
+    width: 100%;
     float: right;
 }
 
