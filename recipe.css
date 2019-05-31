@@ -22,6 +22,8 @@
     background-image: url("images/silverware.jpg");
     color: #404040;
     font-size: 11pt;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 ul {
