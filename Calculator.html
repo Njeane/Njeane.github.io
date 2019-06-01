@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script>
+        function calcTip() {
+            var totalElem = document.getElementById('total');
+            var total = document.getElementById('subtotal').value;
+            var tip = document.getElementById('tip').value;
+            var result = parseFloat(total) + ((total * tip) / 100);
+
+
+            totalElem.innerHTML = '$' + result;
+        }
+    </script>
+
+    <title>Tip Calculator</title>
+    <link href="./Tip Calculator_files/tip.css" type="text/css" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>
+        <img id="logo" src="./Tip Calculator_files/calc.jpg" alt="++--**//"> Tip Calculator
+    </h1>
+
+    <div>
+        <label><input id="subtotal" type="text" value="0"> $ Subtotal</label>
+    </div>
+
+    <div>
+        <label><input id="tip" type="text"> % Tip</label>
+    </div>
+
+    <div>
+        <button id="btn" onclick="calcTip();">Calculate Tip</button>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Your total:</h2>
+        <p id="total">$0.00</p>
+    </div>
+    <div>
+        <a href="https://validator.w3.org/check/referer">
+            <img src="http://mumstudents.org/cs472/images/w3c-html.png" alt="Validate" /></a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img src=" https://jigsaw.w3.org/css-validator/images/vcss" alt="Validate" />
+        </a>
+        <a href="http://mumstudents.org/jshint/referer.php"><img src="http://mumstudents.org/jshint/jshint-small.png" alt="Valid JS"></a>
+    </div>
+
+</body>
+
+</html>
