@@ -1,6 +1,7 @@
 var btn = document.getElementById('btn-click');
 var txt = document.getElementById('txtarea');
 var check = document.getElementById('ckbox');
+var igbtn = document.getElementById('btn-igpay');
 
 
 var resize = function() {
@@ -33,4 +34,31 @@ check.onchange = function() {
         document.body.style.backgroundImage = "none";
 
     }
+
+}
+
+function translate(str) {
+    str = str.toLowerCase();
+    var n = str.search(/[aeiuo]/);
+    switch (n) {
+        case 0:
+            str = str + "way";
+            break;
+        case -1:
+            str = str + "ay";
+            break;
+        default:
+            //str= str.substr(n)+str.substr(0,n)+"ay";
+            str = str.replace(/([^aeiou]*)([aeiou])(\w+)/, "$2$3$1ay");
+            break;
+    }
+    return str;
+
+}
+
+
+igbtn.onclick = function() {
+    var data = document.getElementById('txtarea').value;
+    document.getElementById('txtarea').value = translate(data);
+
 }
