@@ -28,5 +28,9 @@ check.onchange = function() {
         document.body.style.backgroundImage = "URL('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg')";
     } else {
         txt.style.fontWeight = "normal";
+        txt.style.color = "";
+        txt.style.textDecoration = "";
+        document.body.style.backgroundImage = "none";
+
     }
 }
