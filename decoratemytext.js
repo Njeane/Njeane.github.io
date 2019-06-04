@@ -26,7 +26,8 @@ check.onchange = function() {
         txt.style.fontWeight = "bold";
         txt.style.color = "green";
         txt.style.textDecoration = "underline";
-        document.body.style.backgroundImage = "URL('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg')";
+        document.body.style.backgroundImage = "URL('bill.jpg')";
+        // document.body.style.backgroundImage = "URL('http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg')";
     } else {
         txt.style.fontWeight = "normal";
         txt.style.color = "";
