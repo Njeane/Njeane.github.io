@@ -28,3 +28,9 @@ fieldset {
     border: 5px solid black;
     display: inline;
 }
+
+.aclass {
+    float: right;
+    right: 0;
+    bottom: 0;
+}
