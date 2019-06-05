@@ -84,7 +84,7 @@ iframe {
 .form-row>input {
     display: block;
     border-radius: 5px;
-    width: 300px;
+    width: 250px;
     height: 35px;
 }
 
@@ -107,7 +107,7 @@ iframe {
 .form-row1>input {
     display: block;
     border-radius: 5px;
-    width: 300px;
+    width: 250px;
     height: 35px;
 }
 
@@ -122,12 +122,12 @@ iframe {
 #first-form-div {
     float: left;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 #card-img-div {
     float: left;
-    margin: 20px;
+    margin: 10px;
 }
 
 #card-img {
